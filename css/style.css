@@ -746,7 +746,31 @@ figure {
     #fh5co-header .display-tc h1,
     #fh5co-counter .display-tc h1,
     .fh5co-cover .display-tc h1 {
-        font-size: 40px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #fh5co-header .display-tc h2,
+    #fh5co-counter .display-tc h2,
+    .fh5co-cover .display-tc h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #fh5co-header .display-tc h3,
+    #fh5co-counter .display-tc h3,
+    .fh5co-cover .display-tc h3 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #fh5co-header .display-tc h4,
+    #fh5co-counter .display-tc h4,
+    .fh5co-cover .display-tc h4 {
+        font-size: 10px;
     }
 }
 
@@ -841,6 +865,7 @@ figure {
     #fh5co-contact,
     #fh5co-footer {
         padding: 3em 0;
+        font-size: 5px;
     }
 }
 
@@ -924,6 +949,13 @@ figure {
     height: 554px;
 }
 
+@media screen and (max-width: 768px) {
+    .features .col-half .table-d {
+        margin-left: 10px;
+        padding-right: 30px;
+    }
+}
+
 .features .col-half .table-c .desc {
     width: 85%;
 }
@@ -938,6 +970,12 @@ figure {
     font-size: 46px;
     line-height: 55px;
     font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .features .col-half .table-c .desc h3 {
+        font-size: 30px;
+    }
 }
 
 .features .col-half .table-c .desc .btn {
@@ -986,9 +1024,12 @@ figure {
 @media screen and (max-width: 768px) {
     .table-c {
         margin-bottom: 50px;
+        margin-left: 20px;
         width: 100%;
+        padding-right: 50px;
+        text-align: left;
+        font-size: 13px;
     }
-    ;
 }
 
 .feature-center .desc {
@@ -1011,6 +1052,12 @@ figure {
 
 .feature-center .icon2 i {
     font-size: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .feature-center .icon2 i {
+        font-size: 50px;
+    }
 }
 
 .feature-center p,
@@ -1068,6 +1115,12 @@ figure {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .project-grid .desc h3 {
+        font-size: 18px;
+    }
 }
 
 
@@ -1275,6 +1328,15 @@ figure {
     letter-spacing: 2px;
 }
 
+@media screen and (max-width: 768px) {
+    .fh5co-heading h2 {
+        font-size: 20px;
+    }
+    .fh5co-heading p {
+        font-size: 5px;
+    }
+}
+
 .testimony .inner {
     width: 20%;
     float: left;
@@ -1305,7 +1367,10 @@ figure {
         -webkit-text-size-adjust: auto;
         height: 340px !important;
         margin-bottom: 20px;
-        font-size: 20px;
+        font-size: 5px;
+    }
+    .testimony blockquote {
+        font-size: 5px;
     }
 }
 
