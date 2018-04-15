@@ -869,6 +869,12 @@ figure {
     }
 }
 
+@media screen and (max-width: 768px) {
+    #fh5co-started h3 {
+        font-size: 15px;
+    }
+}
+
 #fh5co-core-feature {
     padding-top: 5em;
     padding-bottom: 8em;
